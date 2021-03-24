@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Tarea: Sindicacion de Contenidos (RSS)</title>
+    <link href="https://alight-distance.000webhostapp.com/rss/feed.atom" rel="self" type="application/atom+xml" />
+    <updated>2021-03-21T19:00:00-01:00</updated>
+    <author><name>Marcial Reyes</name></author>
+    <id> https://alight-distance.000webhostapp.com/</id>
+
+        <entry>
+            <title>El tiempo en Arrieta</title>
+            <link href="https://www.tiempo.es/las_palmas-arrieta-es2521563.html"/>
+            <id>https://www.tiempo.es/las_palmas-arrieta-es2521563.html</id>
+            <updated>2021-03-21T19:00:00-01:00</updated>
+            <content>Nos muestra el tiempo en Arrieta a traves de la web www.eltiempo24.es </content>
+        </entry>
+        <entry>
+            <title>Loot-boxes y micropagos</title>
+            <link href="https://alight-distance.000webhostapp.com/html/articulos.html#dos"/>
+            <id>https://alight-distance.000webhostapp.com/html/articulos.html#dos</id>
+            <updated>2021-03-21T20:00:00-01:00</updated>
+            <content>Juegos que incluyen loot-boxes</content>
+        </entry>
+        <entry>
+            <title>Starship de SpaceX aterriza</title>
+            <link href="http://www.xataka.com/espacio/starship-spacex-aterrizar-exito-primera-vez-para-explotar-minutos-despues"/>
+            <id>http://www.xataka.com/espacio/starship-spacex-aterrizar-exito-primera-vez-para-explotar-minutos-despues</id>
+            <updated>2021-03-21T21:00:00-01:00</updated>
+            <content>Aterriza con éxito por primera vez... para explotar minutos después</content>
+        </entry>
+</feed>

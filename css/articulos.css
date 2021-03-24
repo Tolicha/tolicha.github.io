@@ -1,0 +1,228 @@
+main {
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  background: #1d660b;
+  border: 5px solid #9c5805bd;
+  margin: 1em 5%;
+  box-shadow: 0 0 10px;
+  font-family: "RocknRoll", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+}
+h2 {
+  font-family: "DotGothic16";
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+section {
+  display: inline-block;
+  position: relative;
+  width: 96%;
+  margin: 2%;
+  padding: 2rem;
+  background: rgb(0, 204, 255);
+  vertical-align: top;
+}
+
+article {
+  background-color: #d3d3d3;
+  margin: 2%;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+article div {
+  margin: 2%;
+}
+
+article[class="articulo A"] figure {
+  position: relative;
+  overflow: hidden;
+  height: 20rem;
+  transition: transform 1s;
+}
+
+article[class="articulo A"] img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  object-fit: contain;
+}
+
+article[class="articulo A"] img[alt="chest"] {
+  transition: transform 1s;
+}
+article[class="articulo A"] img[alt="over"] {
+  transform: rotateY(180deg);
+  transition: transform 1s;
+}
+
+article[class="articulo A"] figure:hover img[alt="chest"] {
+  transform: rotateY(180deg);
+}
+
+article[class="articulo A"] figure:hover img[alt="over"] {
+  transform: rotateY(0deg);
+}
+
+.sliderManual {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  height: 700px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+
+.sliderManual figure {
+  display: inline-block;
+  padding: 0;
+  margin: 2% 2% 0% 2%;
+  width: 10%;
+}
+
+.sliderManual figure:first-child {
+  margin-left: 15%;
+}
+
+.imgBig {
+  visibility: hidden;
+  position: absolute;
+  width: 40%;
+  top: 200px;
+  left: 30%;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.imgSmall {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.imgSmall:hover ~ .imgBig {
+  visibility: visible;
+}
+
+.transicion {
+  position: relative;
+  width: 80%;
+  height: 20rem;
+  padding-left: 20%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.transicion img {
+  position: absolute;
+  width: 80%;
+}
+
+.panini {
+  top: 15%;
+  filter: blur(1px);
+  transition: filter 5s;
+}
+
+.panini:hover {
+  filter: blur(5px) sepia(1) grayscale(1);
+}
+
+.fifa {
+  transform: scale(0) skew(90deg) rotate(360deg);
+  width: 90%;
+  transition: all 3s linear;
+}
+
+.panini:hover ~ .fifa {
+  transform: scale(1);
+}
+
+.volver {
+  margin-left: 5%;
+}
+.volver a {
+  text-decoration: none;
+  color: brown;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  article[class="articulo B"] h2 {
+    width: 80%;
+  }
+
+  .sliderManual {
+    height: 500px;
+  }
+
+  .sliderManual figure {
+    display: inline-block;
+    padding: 0;
+    margin: 2% 0% 0% 2%;
+    width: 15%;
+  }
+
+  .sliderManual figure:first-child {
+    margin-left: 5%;
+  }
+
+  .imgBig {
+    width: 50%;
+    top: 150px;
+    left: 25%;
+  }
+
+  .imgSmall {
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .transicion {
+    width: 90%;
+    height: 15rem;
+    padding-left: 15%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .volver {
+    visibility: hidden;
+  }
+
+  .volver span {
+    visibility: visible;
+  }
+
+  .sliderManual {
+    width: 90%;
+    left: 5%;
+    height: 20rem;
+  }
+  article[class="articulo A"] figure {
+    height: 15rem;
+  }
+  .imgBig {
+    width: 60%;
+    top: 4.5rem;
+    left: 17%;
+  }
+
+  .transicion {
+    width: 100%;
+    height: 10rem;
+    padding-left: 5%;
+  }
+
+  .transicion img {
+    position: absolute;
+    width: 90%;
+  }
+}

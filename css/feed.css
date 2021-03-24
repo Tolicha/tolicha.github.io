@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 3px chocolate;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+section div {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 1rem;
+  margin-left: 15%;
+  width: 30%;
+  height: 8rem;
+  border-radius: 10px;
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+  padding-left: 5%;
+}
+
+section div img {
+  margin: 1rem;
+  display: inline-block;
+  text-align: center;
+}
+
+/* img[alt="RSS"],
+img[alt="atom"] {
+  text-align: center;
+} */
+
+img[alt^="valid"] {
+  vertical-align: 2rem;
+}
+
+section div img:hover {
+  transform: scale(1.2);
+}
+
+.atom {
+  margin: 1rem;
+}

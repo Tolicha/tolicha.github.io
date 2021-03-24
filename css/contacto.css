@@ -1,0 +1,52 @@
+section {
+  position: relative;
+  width: 90%;
+  margin: 0 5%;
+  padding: 1rem;
+  background: #1d660b;
+  border: 5px solid #9c5805bd;
+}
+
+section article {
+  background: #d3d3d3;
+  font-family: "DotGothic16";
+  margin: 2%;
+  padding: 2%;
+}
+
+form {
+  font-family: "RocknRoll", sans-serif;
+}
+
+form div {
+  margin: 1rem;
+}
+input {
+  padding: 0.2rem;
+  border-radius: 10%;
+}
+
+fieldset input {
+  border-radius: 5%;
+}
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+  section article {
+    background: #d3d3d3;
+    font-family: "DotGothic16";
+    margin: 0rem;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  footer {
+    top: 2rem;
+  }
+}

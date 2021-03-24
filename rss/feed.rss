@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://alight-distance.000webhostapp.com/rss/feed.rss" rel="self" type="application/rss+xml" />
+        <title>Tarea: Sindicacion de Contenidos (RSS)</title>
+        <link> https://alight-distance.000webhostapp.com/ </link>
+        <description>Ejemplo de sindicacion de contenido</description>
+        <language>ES</language>
+        <image>
+            <title>Tarea: Sindicacion de Contenidos (RSS)</title>
+            <url>https://alight-distance.000webhostapp.com/img/mario_tiny_walk.gif</url>
+            <link>https://alight-distance.000webhostapp.com/</link>
+            <width>100</width>
+            <height>100</height>
+        </image>
+        <managingEditor>marcialreyes@gmail.com (MarcialReyes)</managingEditor>
+        <webMaster>marcialchao@gmail.com (MarcialReyes)</webMaster>
+        <pubDate>Fri, 19 Mar 2021 13:00:00 GMT</pubDate>
+        
+        <item>
+            <title>El tiempo en Arrieta</title>
+            <link> https://www.tiempo.es/las_palmas-arrieta-es2521563.html</link>
+            <description> Nos muestra el tiempo en Arrieta a traves de la web www.eltiempo24.es </description>
+            <author> marcialchao@gmail.com (MarcialReyes)</author>
+            <category>Tiempo</category>
+            <guid> https://www.tiempo.es/las_palmas-arrieta-es2521563.html</guid>
+            <pubDate>Fri, 19 Mar 2021 13:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Loot-boxes y micropagos</title>
+            <link> https://alight-distance.000webhostapp.com/html/articulos.html#dos</link>
+            <description> Juegos que incluyen loot-boxes </description>
+            <author> marcialchao@gmail.com (MarcialReyes)</author>
+            <category>Tecnología</category>
+            <guid>  https://alight-distance.000webhostapp.com/html/articulos.html#dos</guid>
+            <pubDate>Fri, 19 Mar 2021 13:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>Starship de SpaceX aterriza</title>
+            <link> http://www.xataka.com/espacio/starship-spacex-aterrizar-exito-primera-vez-para-explotar-minutos-despues</link>
+            <description> Aterriza con éxito por primera vez... para explotar minutos después </description>
+            <author> marcialchao@gmail.com (MarcialReyes)</author>
+            <category>Tecnología</category>
+            <guid> http://www.xataka.com/espacio/starship-spacex-aterrizar-exito-primera-vez-para-explotar-minutos-despues</guid>
+            <pubDate>Fri, 19 Mar 2021 13:00:00 GMT</pubDate>
+        </item>
+
+    </channel>
+</rss>
