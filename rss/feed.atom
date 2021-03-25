@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Tarea: Sindicacion de Contenidos (RSS)</title>
+    <title>Tarea: Sindicacion de Contenidos (ATOM)</title>
     <link href="https://tolicha.github.io/rss/feed.atom" rel="self" type="application/atom+xml" />
     <updated>2021-03-21T19:00:00-01:00</updated>
     <author><name>Marcial Reyes</name></author>
