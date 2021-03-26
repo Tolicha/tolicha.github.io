@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <atom:link href="https://tolicha.github.io/rss/feed.rss" rel="self" type="application/rss+xml" />
-        <title>Tarea: Sindicacion de Contenidos (RSS)</title>
+        <title>Sindicacion de Contenidos (RSS)</title>
         <link> https://tolicha.github.io/</link>
         <description>Ejemplo de sindicacion de contenido</description>
         <language>ES</language>
@@ -46,6 +46,5 @@
             <guid>http://www.xataka.com/espacio/starship-spacex-aterrizar-exito-primera-vez-para-explotar-minutos-despues</guid>
             <pubDate>Fri, 19 Mar 2021 13:00:00 GMT</pubDate>
         </item>
-
-    </channel>
+     </channel>
 </rss>
